@@ -2,11 +2,11 @@
 
 return array (
 	'default' => array (
-		'hostname' => 'localhost',
-		'database' => 'phpcms',
-		'username' => '',
-		'password' => '',
-		'tablepre' => 'v9_',
+		'hostname' => $_SERVER['SINASRV_DB_HOST'],
+		'database' => $_SERVER['SINASRV_DB_NAME'],
+		'username' => $_SERVER['SINASRV_DB_USER'],
+		'password' => $_SERVER['SINASRV_DB_PASS'],
+		'tablepre' => 'hey_',
 		'charset' => 'utf8',
 		'type' => 'mysql',
 		'debug' => true,
